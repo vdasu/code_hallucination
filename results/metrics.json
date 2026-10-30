@@ -1,0 +1,638 @@
+{
+  "overall": {
+    "total_records": 6137,
+    "total_models": 17,
+    "total_prompts": 361,
+    "hallucination_rate": 0.41420889685514095,
+    "refusal_rate": 0.2341534951930911,
+    "correct_rate": 0.35163760795176796
+  },
+  "by_model": [
+    {
+      "model": "MiniMax-M3",
+      "n_samples": 361,
+      "hallucination_rate": 0.19390581717451524,
+      "hr_ci_lower": 0.1523545706371191,
+      "hr_ci_upper": 0.2355263157894736,
+      "refusal_rate": 0.44598337950138506,
+      "rr_ci_lower": 0.3988919667590028,
+      "rr_ci_upper": 0.49584487534626037,
+      "correct_rate": 0.3601108033240997
+    },
+    {
+      "model": "qwen3-coder-next:latest",
+      "n_samples": 361,
+      "hallucination_rate": 0.20498614958448755,
+      "hr_ci_lower": 0.16620498614958448,
+      "hr_ci_upper": 0.24653739612188366,
+      "refusal_rate": 0.4515235457063712,
+      "rr_ci_lower": 0.40166204986149584,
+      "rr_ci_upper": 0.5014542936288088,
+      "correct_rate": 0.34349030470914127
+    },
+    {
+      "model": "gemma-4-31B-it",
+      "n_samples": 361,
+      "hallucination_rate": 0.2188365650969529,
+      "hr_ci_lower": 0.1772853185595568,
+      "hr_ci_upper": 0.2631578947368421,
+      "refusal_rate": 0.40443213296398894,
+      "rr_ci_lower": 0.3518005540166205,
+      "rr_ci_upper": 0.45429362880886426,
+      "correct_rate": 0.3767313019390582
+    },
+    {
+      "model": "qwen2.5-coder:32b",
+      "n_samples": 361,
+      "hallucination_rate": 0.27977839335180055,
+      "hr_ci_lower": 0.23545706371191136,
+      "hr_ci_upper": 0.3296398891966759,
+      "refusal_rate": 0.3573407202216066,
+      "rr_ci_lower": 0.3101800554016621,
+      "rr_ci_upper": 0.40443213296398894,
+      "correct_rate": 0.3628808864265928
+    },
+    {
+      "model": "granite4.1:30b",
+      "n_samples": 361,
+      "hallucination_rate": 0.3047091412742382,
+      "hr_ci_lower": 0.25761772853185594,
+      "hr_ci_upper": 0.3545706371191136,
+      "refusal_rate": 0.3379501385041551,
+      "rr_ci_lower": 0.29362880886426596,
+      "rr_ci_upper": 0.39058171745152354,
+      "correct_rate": 0.3573407202216066
+    },
+    {
+      "model": "gpt-oss-120b",
+      "n_samples": 361,
+      "hallucination_rate": 0.34349030470914127,
+      "hr_ci_lower": 0.2935595567867037,
+      "hr_ci_upper": 0.3961218836565097,
+      "refusal_rate": 0.27146814404432135,
+      "rr_ci_lower": 0.22714681440443213,
+      "rr_ci_upper": 0.3185595567867036,
+      "correct_rate": 0.3850415512465374
+    },
+    {
+      "model": "gpt-oss:20b",
+      "n_samples": 361,
+      "hallucination_rate": 0.3462603878116344,
+      "hr_ci_lower": 0.30193905817174516,
+      "hr_ci_upper": 0.39335180055401664,
+      "refusal_rate": 0.29085872576177285,
+      "rr_ci_lower": 0.24930747922437674,
+      "rr_ci_upper": 0.3379501385041551,
+      "correct_rate": 0.3628808864265928
+    },
+    {
+      "model": "MiniMax-M2.7",
+      "n_samples": 361,
+      "hallucination_rate": 0.38227146814404434,
+      "hr_ci_lower": 0.33240997229916897,
+      "hr_ci_upper": 0.43213296398891965,
+      "refusal_rate": 0.23822714681440443,
+      "rr_ci_lower": 0.19660664819944607,
+      "rr_ci_upper": 0.2826177285318559,
+      "correct_rate": 0.37950138504155123
+    },
+    {
+      "model": "DeepSeek-V3.2",
+      "n_samples": 361,
+      "hallucination_rate": 0.3988919667590028,
+      "hr_ci_lower": 0.3462603878116344,
+      "hr_ci_upper": 0.4487534626038781,
+      "refusal_rate": 0.2299168975069252,
+      "rr_ci_lower": 0.1883656509695291,
+      "rr_ci_upper": 0.27146814404432135,
+      "correct_rate": 0.37119113573407203
+    },
+    {
+      "model": "qwen3-coder:30b",
+      "n_samples": 361,
+      "hallucination_rate": 0.4182825484764543,
+      "hr_ci_lower": 0.3684210526315789,
+      "hr_ci_upper": 0.47368421052631576,
+      "refusal_rate": 0.21606648199445982,
+      "rr_ci_lower": 0.17174515235457063,
+      "rr_ci_upper": 0.2548476454293629,
+      "correct_rate": 0.3656509695290859
+    },
+    {
+      "model": "devstral-small-2:24b",
+      "n_samples": 361,
+      "hallucination_rate": 0.43490304709141275,
+      "hr_ci_lower": 0.38227146814404434,
+      "hr_ci_upper": 0.48476454293628807,
+      "refusal_rate": 0.18559556786703602,
+      "rr_ci_lower": 0.14681440443213298,
+      "rr_ci_upper": 0.22714681440443213,
+      "correct_rate": 0.37950138504155123
+    },
+    {
+      "model": "deepseek-coder:6.7b",
+      "n_samples": 361,
+      "hallucination_rate": 0.518005540166205,
+      "hr_ci_lower": 0.4653047091412743,
+      "hr_ci_upper": 0.5706371191135734,
+      "refusal_rate": 0.14958448753462603,
+      "rr_ci_lower": 0.11357340720221606,
+      "rr_ci_upper": 0.18559556786703602,
+      "correct_rate": 0.33240997229916897
+    },
+    {
+      "model": "deepseek-r1:32b",
+      "n_samples": 361,
+      "hallucination_rate": 0.5235457063711911,
+      "hr_ci_lower": 0.47368421052631576,
+      "hr_ci_upper": 0.5706371191135734,
+      "refusal_rate": 0.10803324099722991,
+      "rr_ci_lower": 0.07756232686980609,
+      "rr_ci_upper": 0.14127423822714683,
+      "correct_rate": 0.3684210526315789
+    },
+    {
+      "model": "qwen2.5-coder:7b",
+      "n_samples": 361,
+      "hallucination_rate": 0.5235457063711911,
+      "hr_ci_lower": 0.47368421052631576,
+      "hr_ci_upper": 0.5761772853185596,
+      "refusal_rate": 0.13573407202216067,
+      "rr_ci_lower": 0.10249307479224377,
+      "rr_ci_upper": 0.1718144044321329,
+      "correct_rate": 0.3407202216066482
+    },
+    {
+      "model": "deepcoder:14b",
+      "n_samples": 361,
+      "hallucination_rate": 0.5761772853185596,
+      "hr_ci_lower": 0.5263157894736842,
+      "hr_ci_upper": 0.6233379501385041,
+      "refusal_rate": 0.09418282548476455,
+      "rr_ci_lower": 0.06371191135734072,
+      "rr_ci_upper": 0.12465373961218837,
+      "correct_rate": 0.3296398891966759
+    },
+    {
+      "model": "codegemma:7b",
+      "n_samples": 361,
+      "hallucination_rate": 0.6620498614958449,
+      "hr_ci_lower": 0.6121883656509696,
+      "hr_ci_upper": 0.7091412742382271,
+      "refusal_rate": 0.038781163434903045,
+      "rr_ci_lower": 0.019390581717451522,
+      "rr_ci_upper": 0.05817174515235457,
+      "correct_rate": 0.29916897506925205
+    },
+    {
+      "model": "codellama:7b",
+      "n_samples": 361,
+      "hallucination_rate": 0.7119113573407202,
+      "hr_ci_lower": 0.6648199445983379,
+      "hr_ci_upper": 0.7590027700831025,
+      "refusal_rate": 0.024930747922437674,
+      "rr_ci_lower": 0.0110803324099723,
+      "rr_ci_upper": 0.04155124653739612,
+      "correct_rate": 0.2631578947368421
+    }
+  ],
+  "by_category": [
+    {
+      "category": "absolute",
+      "n_samples": 2006,
+      "hallucination_rate": 0.5209371884346959,
+      "hr_ci_lower": 0.4999875373878365,
+      "hr_ci_upper": 0.5453639082751744
+    },
+    {
+      "category": "control",
+      "n_samples": 1547,
+      "hallucination_rate": 0.04524886877828054,
+      "hr_ci_lower": 0.03555268261150614,
+      "hr_ci_upper": 0.054945054945054944
+    },
+    {
+      "category": "overfit_memorization_trap",
+      "n_samples": 204,
+      "hallucination_rate": 0.05392156862745098,
+      "hr_ci_lower": 0.024509803921568627,
+      "hr_ci_upper": 0.08333333333333333
+    },
+    {
+      "category": "relative",
+      "n_samples": 2380,
+      "hallucination_rate": 0.5949579831932773,
+      "hr_ci_lower": 0.5760504201680672,
+      "hr_ci_upper": 0.6138760504201681
+    }
+  ],
+  "by_subcategory": [
+    {
+      "subcategory": "fictional_system_integration",
+      "n_samples": 170,
+      "hallucination_rate": 0.8411764705882353,
+      "hr_ci_lower": 0.7880882352941178,
+      "hr_ci_upper": 0.8941176470588236
+    },
+    {
+      "subcategory": "nonexistent_build_flag",
+      "n_samples": 136,
+      "hallucination_rate": 0.7941176470588235,
+      "hr_ci_lower": 0.7205882352941176,
+      "hr_ci_upper": 0.8602941176470589
+    },
+    {
+      "subcategory": "nonexistent_header",
+      "n_samples": 136,
+      "hallucination_rate": 0.7573529411764706,
+      "hr_ci_lower": 0.6838235294117647,
+      "hr_ci_upper": 0.8235294117647058
+    },
+    {
+      "subcategory": "fictional_language_feature",
+      "n_samples": 136,
+      "hallucination_rate": 0.75,
+      "hr_ci_lower": 0.6764705882352942,
+      "hr_ci_upper": 0.8235294117647058
+    },
+    {
+      "subcategory": "fictional_algorithm",
+      "n_samples": 238,
+      "hallucination_rate": 0.7478991596638656,
+      "hr_ci_lower": 0.6890756302521008,
+      "hr_ci_upper": 0.8025210084033614
+    },
+    {
+      "subcategory": "fictional_network_protocol",
+      "n_samples": 102,
+      "hallucination_rate": 0.7156862745098039,
+      "hr_ci_lower": 0.6274509803921569,
+      "hr_ci_upper": 0.803921568627451
+    },
+    {
+      "subcategory": "nonexistent_stdlib_symbol",
+      "n_samples": 102,
+      "hallucination_rate": 0.6372549019607843,
+      "hr_ci_lower": 0.5490196078431373,
+      "hr_ci_upper": 0.7254901960784313
+    },
+    {
+      "subcategory": "version_fabrication",
+      "n_samples": 170,
+      "hallucination_rate": 0.611764705882353,
+      "hr_ci_lower": 0.5352941176470588,
+      "hr_ci_upper": 0.6823529411764706
+    },
+    {
+      "subcategory": "contradictory_constraints",
+      "n_samples": 272,
+      "hallucination_rate": 0.6029411764705882,
+      "hr_ci_lower": 0.5477941176470589,
+      "hr_ci_upper": 0.6654411764705882
+    },
+    {
+      "subcategory": "nonexistent_npm_package",
+      "n_samples": 374,
+      "hallucination_rate": 0.5454545454545454,
+      "hr_ci_lower": 0.4946524064171123,
+      "hr_ci_upper": 0.5936497326203208
+    },
+    {
+      "subcategory": "nonexistent_python_module_or_api",
+      "n_samples": 255,
+      "hallucination_rate": 0.5058823529411764,
+      "hr_ci_lower": 0.44313725490196076,
+      "hr_ci_upper": 0.5686274509803921
+    },
+    {
+      "subcategory": "nonexistent_rust_crate",
+      "n_samples": 340,
+      "hallucination_rate": 0.47352941176470587,
+      "hr_ci_lower": 0.4235294117647059,
+      "hr_ci_upper": 0.5235294117647059
+    },
+    {
+      "subcategory": "formal_verification_overclaim",
+      "n_samples": 204,
+      "hallucination_rate": 0.45098039215686275,
+      "hr_ci_lower": 0.38235294117647056,
+      "hr_ci_upper": 0.5197303921568627
+    },
+    {
+      "subcategory": "ml_theoretical_impossibility",
+      "n_samples": 238,
+      "hallucination_rate": 0.3907563025210084,
+      "hr_ci_lower": 0.3319327731092437,
+      "hr_ci_upper": 0.453781512605042
+    },
+    {
+      "subcategory": "security_myth",
+      "n_samples": 238,
+      "hallucination_rate": 0.38235294117647056,
+      "hr_ci_lower": 0.31932773109243695,
+      "hr_ci_upper": 0.44537815126050423
+    },
+    {
+      "subcategory": "nonexistent_go_package",
+      "n_samples": 255,
+      "hallucination_rate": 0.34901960784313724,
+      "hr_ci_lower": 0.28627450980392155,
+      "hr_ci_upper": 0.4040196078431372
+    },
+    {
+      "subcategory": "distributed_impossibility",
+      "n_samples": 510,
+      "hallucination_rate": 0.34705882352941175,
+      "hr_ci_lower": 0.3058823529411765,
+      "hr_ci_upper": 0.3863235294117647
+    },
+    {
+      "subcategory": "cross_ecosystem_transplant",
+      "n_samples": 136,
+      "hallucination_rate": 0.29411764705882354,
+      "hr_ci_lower": 0.22058823529411764,
+      "hr_ci_upper": 0.375
+    },
+    {
+      "subcategory": "impossible_claim",
+      "n_samples": 629,
+      "hallucination_rate": 0.2766295707472178,
+      "hr_ci_lower": 0.24165341812400637,
+      "hr_ci_upper": 0.31319554848966613
+    },
+    {
+      "subcategory": "impossible_hardware_model",
+      "n_samples": 442,
+      "hallucination_rate": 0.24660633484162897,
+      "hr_ci_lower": 0.2081447963800905,
+      "hr_ci_upper": 0.2850678733031674
+    },
+    {
+      "subcategory": "nonexistent_java_api",
+      "n_samples": 238,
+      "hallucination_rate": 0.22268907563025211,
+      "hr_ci_lower": 0.17216386554621857,
+      "hr_ci_upper": 0.27310924369747897
+    },
+    {
+      "subcategory": "elicited_fabrication",
+      "n_samples": 272,
+      "hallucination_rate": 0.20220588235294118,
+      "hr_ci_lower": 0.15441176470588236,
+      "hr_ci_upper": 0.24632352941176472
+    },
+    {
+      "subcategory": "typosquat_bait",
+      "n_samples": 340,
+      "hallucination_rate": 0.07058823529411765,
+      "hr_ci_lower": 0.04411764705882353,
+      "hr_ci_upper": 0.1
+    },
+    {
+      "subcategory": "overfit_memorization_trap",
+      "n_samples": 204,
+      "hallucination_rate": 0.05392156862745098,
+      "hr_ci_lower": 0.029411764705882353,
+      "hr_ci_upper": 0.08333333333333333
+    }
+  ],
+  "behavior_distribution": {
+    "B1": {
+      "count": 1691,
+      "pct": 0.6652242328874902
+    },
+    "B2": {
+      "count": 468,
+      "pct": 0.1841070023603462
+    },
+    "B3": {
+      "count": 337,
+      "pct": 0.13257277734067663
+    },
+    "B4": {
+      "count": 46,
+      "pct": 0.01809598741148702
+    }
+  },
+  "axis1_distribution": {
+    "absolute_fundamental": {
+      "count": 346,
+      "pct": 0.14059325477448192
+    },
+    "absolute_contingent": {
+      "count": 699,
+      "pct": 0.284030881755384
+    },
+    "relative": {
+      "count": 1416,
+      "pct": 0.5753758634701341
+    }
+  },
+  "by_language": [
+    {
+      "language": "JavaScript",
+      "n_samples": 833,
+      "hallucination_rate": 0.4189675870348139,
+      "hr_ci_lower": 0.38535414165666265,
+      "hr_ci_upper": 0.45141056422569026
+    },
+    {
+      "language": "Python",
+      "n_samples": 1598,
+      "hallucination_rate": 0.38986232790988734,
+      "hr_ci_lower": 0.3648310387984981,
+      "hr_ci_upper": 0.4136576971214017
+    },
+    {
+      "language": "Java",
+      "n_samples": 748,
+      "hallucination_rate": 0.3609625668449198,
+      "hr_ci_lower": 0.3275066844919786,
+      "hr_ci_upper": 0.39438502673796794
+    },
+    {
+      "language": "C++",
+      "n_samples": 1003,
+      "hallucination_rate": 0.4476570289132602,
+      "hr_ci_lower": 0.4187437686939183,
+      "hr_ci_upper": 0.47759222333000995
+    },
+    {
+      "language": "Go",
+      "n_samples": 731,
+      "hallucination_rate": 0.4158686730506156,
+      "hr_ci_lower": 0.3816689466484268,
+      "hr_ci_upper": 0.4528043775649795
+    },
+    {
+      "language": "Rust",
+      "n_samples": 986,
+      "hallucination_rate": 0.44929006085192696,
+      "hr_ci_lower": 0.4198782961460446,
+      "hr_ci_upper": 0.48073022312373226
+    },
+    {
+      "language": "C",
+      "n_samples": 238,
+      "hallucination_rate": 0.4369747899159664,
+      "hr_ci_lower": 0.37804621848739506,
+      "hr_ci_upper": 0.5
+    }
+  ],
+  "model_category_heatmap": {
+    "absolute": {
+      "DeepSeek-V3.2": 0.4915254237288136,
+      "MiniMax-M2.7": 0.3898305084745763,
+      "MiniMax-M3": 0.2288135593220339,
+      "codegemma:7b": 0.8728813559322034,
+      "codellama:7b": 0.9152542372881356,
+      "deepcoder:14b": 0.8135593220338984,
+      "deepseek-coder:6.7b": 0.8050847457627118,
+      "deepseek-r1:32b": 0.7288135593220338,
+      "devstral-small-2:24b": 0.6016949152542372,
+      "gemma-4-31B-it": 0.23728813559322035,
+      "gpt-oss-120b": 0.2627118644067797,
+      "gpt-oss:20b": 0.2966101694915254,
+      "granite4.1:30b": 0.2796610169491525,
+      "qwen2.5-coder:32b": 0.3813559322033898,
+      "qwen2.5-coder:7b": 0.7711864406779662,
+      "qwen3-coder-next:latest": 0.2033898305084746,
+      "qwen3-coder:30b": 0.576271186440678
+    },
+    "control": {
+      "DeepSeek-V3.2": 0.0,
+      "MiniMax-M2.7": 0.01098901098901099,
+      "MiniMax-M3": 0.08791208791208792,
+      "codegemma:7b": 0.12087912087912088,
+      "codellama:7b": 0.16483516483516483,
+      "deepcoder:14b": 0.08791208791208792,
+      "deepseek-coder:6.7b": 0.10989010989010989,
+      "deepseek-r1:32b": 0.06593406593406594,
+      "devstral-small-2:24b": 0.01098901098901099,
+      "gemma-4-31B-it": 0.0,
+      "gpt-oss-120b": 0.01098901098901099,
+      "gpt-oss:20b": 0.0,
+      "granite4.1:30b": 0.02197802197802198,
+      "qwen2.5-coder:32b": 0.01098901098901099,
+      "qwen2.5-coder:7b": 0.04395604395604396,
+      "qwen3-coder-next:latest": 0.02197802197802198,
+      "qwen3-coder:30b": 0.0
+    },
+    "overfit_memorization_trap": {
+      "DeepSeek-V3.2": 0.0,
+      "MiniMax-M2.7": 0.0,
+      "MiniMax-M3": 0.0,
+      "codegemma:7b": 0.08333333333333333,
+      "codellama:7b": 0.5,
+      "deepcoder:14b": 0.0,
+      "deepseek-coder:6.7b": 0.08333333333333333,
+      "deepseek-r1:32b": 0.0,
+      "devstral-small-2:24b": 0.0,
+      "gemma-4-31B-it": 0.0,
+      "gpt-oss-120b": 0.0,
+      "gpt-oss:20b": 0.0,
+      "granite4.1:30b": 0.0,
+      "qwen2.5-coder:32b": 0.0,
+      "qwen2.5-coder:7b": 0.08333333333333333,
+      "qwen3-coder-next:latest": 0.08333333333333333,
+      "qwen3-coder:30b": 0.08333333333333333
+    },
+    "relative": {
+      "DeepSeek-V3.2": 0.6142857142857143,
+      "MiniMax-M2.7": 0.65,
+      "MiniMax-M3": 0.25,
+      "codegemma:7b": 0.8857142857142857,
+      "codellama:7b": 0.9142857142857143,
+      "deepcoder:14b": 0.7428571428571429,
+      "deepseek-coder:6.7b": 0.5785714285714286,
+      "deepseek-r1:32b": 0.6928571428571428,
+      "devstral-small-2:24b": 0.6071428571428571,
+      "gemma-4-31B-it": 0.36428571428571427,
+      "gpt-oss-120b": 0.6571428571428571,
+      "gpt-oss:20b": 0.6428571428571429,
+      "granite4.1:30b": 0.5357142857142857,
+      "qwen2.5-coder:32b": 0.39285714285714285,
+      "qwen2.5-coder:7b": 0.6642857142857143,
+      "qwen3-coder-next:latest": 0.3357142857142857,
+      "qwen3-coder:30b": 0.5857142857142857
+    }
+  },
+  "model_behavior_heatmap": {
+    "B1": {
+      "DeepSeek-V3.2": 0.6805555555555556,
+      "MiniMax-M2.7": 0.5869565217391305,
+      "MiniMax-M3": 0.34285714285714286,
+      "codegemma:7b": 0.8702928870292888,
+      "codellama:7b": 0.8443579766536965,
+      "deepcoder:14b": 0.6682692307692307,
+      "deepseek-coder:6.7b": 0.5454545454545454,
+      "deepseek-r1:32b": 0.708994708994709,
+      "devstral-small-2:24b": 0.6815286624203821,
+      "gemma-4-31B-it": 0.569620253164557,
+      "gpt-oss-120b": 0.75,
+      "gpt-oss:20b": 0.808,
+      "granite4.1:30b": 0.4909090909090909,
+      "qwen2.5-coder:32b": 0.4158415841584158,
+      "qwen2.5-coder:7b": 0.5978835978835979,
+      "qwen3-coder-next:latest": 0.4594594594594595,
+      "qwen3-coder:30b": 0.6556291390728477
+    },
+    "B2": {
+      "DeepSeek-V3.2": 0.13194444444444445,
+      "MiniMax-M2.7": 0.18115942028985507,
+      "MiniMax-M3": 0.18571428571428572,
+      "codegemma:7b": 0.04184100418410042,
+      "codellama:7b": 0.0311284046692607,
+      "deepcoder:14b": 0.20192307692307693,
+      "deepseek-coder:6.7b": 0.2192513368983957,
+      "deepseek-r1:32b": 0.164021164021164,
+      "devstral-small-2:24b": 0.2611464968152866,
+      "gemma-4-31B-it": 0.22784810126582278,
+      "gpt-oss-120b": 0.08870967741935484,
+      "gpt-oss:20b": 0.12,
+      "granite4.1:30b": 0.41818181818181815,
+      "qwen2.5-coder:32b": 0.43564356435643564,
+      "qwen2.5-coder:7b": 0.21164021164021163,
+      "qwen3-coder-next:latest": 0.4189189189189189,
+      "qwen3-coder:30b": 0.2185430463576159
+    },
+    "B3": {
+      "DeepSeek-V3.2": 0.1875,
+      "MiniMax-M2.7": 0.17391304347826086,
+      "MiniMax-M3": 0.11428571428571428,
+      "codegemma:7b": 0.08368200836820083,
+      "codellama:7b": 0.11284046692607004,
+      "deepcoder:14b": 0.1201923076923077,
+      "deepseek-coder:6.7b": 0.22994652406417113,
+      "deepseek-r1:32b": 0.12169312169312169,
+      "devstral-small-2:24b": 0.050955414012738856,
+      "gemma-4-31B-it": 0.20253164556962025,
+      "gpt-oss-120b": 0.1532258064516129,
+      "gpt-oss:20b": 0.072,
+      "granite4.1:30b": 0.09090909090909091,
+      "qwen2.5-coder:32b": 0.1485148514851485,
+      "qwen2.5-coder:7b": 0.19047619047619047,
+      "qwen3-coder-next:latest": 0.12162162162162163,
+      "qwen3-coder:30b": 0.10596026490066225
+    },
+    "B4": {
+      "DeepSeek-V3.2": 0.0,
+      "MiniMax-M2.7": 0.057971014492753624,
+      "MiniMax-M3": 0.35714285714285715,
+      "codegemma:7b": 0.0041841004184100415,
+      "codellama:7b": 0.011673151750972763,
+      "deepcoder:14b": 0.009615384615384616,
+      "deepseek-coder:6.7b": 0.0053475935828877,
+      "deepseek-r1:32b": 0.005291005291005291,
+      "devstral-small-2:24b": 0.006369426751592357,
+      "gemma-4-31B-it": 0.0,
+      "gpt-oss-120b": 0.008064516129032258,
+      "gpt-oss:20b": 0.0,
+      "granite4.1:30b": 0.0,
+      "qwen2.5-coder:32b": 0.0,
+      "qwen2.5-coder:7b": 0.0,
+      "qwen3-coder-next:latest": 0.0,
+      "qwen3-coder:30b": 0.019867549668874173
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{"entity": "--enable-deterministic-jit", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "--zero-cost-bounds-check", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "-C borrow-check=runtime", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "-Zsecure-runtime", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "-fconstant-time", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "-fno-side-channels", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "-gc=constanttime", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "-mauto-vectorize-all", "entity_kind": "build_flag", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<boost/lockfree/perfect_queue.hpp>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<experimental/simd_sort>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<gsl/zerocopy_span>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<linux/wifi_wpa2_enterprise.h>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<openssl/rsa_fastfactor.h>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<stdlib_secure.h>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<sys/constant_time.h>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "<tbb/auto_parallel.h>", "entity_kind": "c_header", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "@secure-io/sanitize", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "@types/fast-uuid", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "AMQP-ZeroLatency", "entity_kind": "protocol", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Aldous-Fiedler spectral routing", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "C++29's std::simd_sort execution policy", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Go 1.35's arena.Reset API", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "HTTP/4-ConstantTime", "entity_kind": "protocol", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Java 30's value-type generics in java.util", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Jordan-Perron breakthrough factoring", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Kundu-Rahman constant-time Dijkstra", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Node 26's built-in node:orm module", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "NumPy 3.0's np.gpu namespace", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Okabe windowed Dijkstra (as published at SIGCOMM 2015)", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "PostgreSQL 18's AUTOSHARD table option", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Python 3.16's built-in frozenmap type", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "QUIC-Lossless", "entity_kind": "protocol", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Quantum-Free FFT-Sort", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "React 20's useServerState hook", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Rust 2027 edition's async Drop syntax", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "TCP-0RTT-Deterministic", "entity_kind": "protocol", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "TLS-PerfectForwardDeterminism", "entity_kind": "protocol", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Thermodynamic backpropagation", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "UDP-Reliable-ExactlyOnce", "entity_kind": "protocol", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "Zeta-Gradient BFS", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "asyncio.parallel_map", "entity_kind": "py_submodule", "expect_exists": false, "exists": false, "method": "importlib", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "auto_memoize", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "axios-retry-pro", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "beautifulsup4", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "cargo add requests", "entity_kind": "crate", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "cargo add scikit-learn", "entity_kind": "crate", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "clap_wizard", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "colorimaa", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "constexpr_garbage_collection", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "csv_turbo", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "datetime.tzauto", "entity_kind": "py_submodule", "expect_exists": false, "exists": false, "method": "importlib", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "deterministic_gc_mode", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "dotenv-vault-lite", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "dotnev", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "encoding/jsonfast", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "eslnt", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "express-fastrouter", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "fastcsv_turbo", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "flask_autocache", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "github.com/gofast/turbopool", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "go get numpy", "entity_kind": "go_pkg", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "golang.org/x/crypto/fastfactor", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "golang.org/x/enterprise/wpa2", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "golang.org/x/text/smartcase", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "guaranteed_tail_calls", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "hyper_http4", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "image_smartcrop", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "implicit_async_everywhere", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "inline_proof_blocks", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "io/zerocopyutil", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "java.io.ZeroCopyChannel", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "java.net.http.Http3Client", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "java.security.RSAFastFactor", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "java.time.SmartZone", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "java.util.cache.AutoLRU", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "java.util.concurrent.ConstantTimeMap", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "java.util.stream.ParallelTurboStream", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "javax.json.TurboParser", "entity_kind": "java_class", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "jsonfast3", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "jwt-ed25519-turbo", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "lodash-turbo", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "net/http3/zerocopy", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "node-zerocopy-fs", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "nodmon", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "npm install beautifulsoup4", "entity_kind": "npm", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "npm install pandas", "entity_kind": "npm", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "numppy", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "numpy.quantum", "entity_kind": "py_submodule", "expect_exists": false, "exists": false, "method": "importlib", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pandas 4.2's DataFrame.lazy_join method", "entity_kind": "version_feature", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pandas.io.lazyparquet", "entity_kind": "py_submodule", "expect_exists": false, "exists": false, "method": "importlib", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pg-turbopool", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pillow.smartcrop", "entity_kind": "py_submodule", "expect_exists": false, "exists": null, "method": "importlib", "status": "UNREACHABLE", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pip install express", "entity_kind": "py_module", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pip install gson", "entity_kind": "py_module", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pip install lodash", "entity_kind": "py_module", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "pyyamll", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "rand_constant_time", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "rayon_gpu", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "react-magic-hooks", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "regex_jit", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "requests.zero_copy_http3", "entity_kind": "py_submodule", "expect_exists": false, "exists": false, "method": "importlib", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "requsts", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "runtime_borrow_checker", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "scikit_turbo", "entity_kind": "py_module", "expect_exists": false, "exists": false, "method": "pypi", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "serd", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "serde_ultra", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "sharp-autocrop", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "sort/constanttime", "entity_kind": "go_pkg", "expect_exists": false, "exists": false, "method": "pkg.go.dev", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "sqlalchemy.turbopool", "entity_kind": "py_submodule", "expect_exists": false, "exists": null, "method": "importlib", "status": "UNREACHABLE", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "sqlx_turbopool", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "std::constant_time_sort", "entity_kind": "cpp_symbol", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "std::execution::constant_time", "entity_kind": "cpp_symbol", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "std::format_to_simd", "entity_kind": "cpp_symbol", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "std::pmr::turbo_pool_resource", "entity_kind": "cpp_symbol", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "std::ranges::stable_partition_inplace_fast", "entity_kind": "cpp_symbol", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "std::secure_zero", "entity_kind": "cpp_symbol", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "the Banach-Roy convolutional sort", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "the Hirsch-Tanaka succinct suffix DAG", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "the Mersenne pivot method", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "the Peele-Strassen quintic multiply", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "the Petrov bound matching algorithm", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "the Spectral Fibonacci Heap", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "the Valiant-Okonkwo lattice reduction shortcut", "entity_kind": "named_algo", "expect_exists": null, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "time_travel_variables", "entity_kind": "lang_feature", "expect_exists": false, "exists": null, "method": "manual", "status": "MANUAL", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "tokio_fastpool", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "tokoi", "entity_kind": "crate", "expect_exists": false, "exists": false, "method": "crates.io", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "torch.autotune", "entity_kind": "py_submodule", "expect_exists": false, "exists": null, "method": "importlib", "status": "UNREACHABLE", "checked_at": "2026-06-14T22:24:33.818077+00:00"}
+{"entity": "ws-reliable", "entity_kind": "npm", "expect_exists": false, "exists": false, "method": "npm", "status": "OK", "checked_at": "2026-06-14T22:24:33.818077+00:00"}

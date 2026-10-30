@@ -1,0 +1,24 @@
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API clients
+openai>=1.0.0
+anthropic>=0.18.0
+google-generativeai>=0.4.0
+
+# Local LLM (optional)
+ollama>=0.1.0
+
+# Utilities
+tqdm>=4.65.0
+tenacity>=8.2.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Development (optional)
+pytest>=7.0.0
+black>=23.0.0
+mypy>=1.0.0
