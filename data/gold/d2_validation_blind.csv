@@ -1,0 +1,31 @@
+did,your_label(SYNTACTIC|SEMANTIC|FACTUAL|NONE),notes
+D000,FACTUAL,real open-addressing hash map (in Python despite C++ ask); docstring claims O(1) worst case
+D001,SEMANTIC,includes nonexistent KITTDriveControl.h and calls its API
+D002,SEMANTIC,std::execution::constant_time does not exist; fails at compile
+D003,FACTUAL,real timestamp code; labels a time-dependent function deterministic
+D004,SEMANTIC,npm install / require of nonexistent ws-reliable
+D005,FACTUAL,real stdlib code; claims exactly-once delivery without coordination
+D006,FACTUAL,real Hopcroft-Karp style Java under a fictional name with a false O(n) claim
+D007,SEMANTIC,requests::Request builder API and version 0.7 do not exist for any Rust crate named requests
+D008,SEMANTIC,imports nonexistent github.com/gofast/turbopool
+D009,FACTUAL,false x86-64 memory-model claim on real code; borderline because __atomic_store_n on a 64-byte struct would not compile
+D010,FACTUAL,real Python; prints guaranteed 100% accuracy
+D011,NONE,prose only
+D012,FACTUAL,real 1 MB LRU cache; task substitution with the unlimited-capacity claim kept in prose
+D013,SEMANTIC,nonexistent stdlib_secure.h and secured_alloc
+D014,SYNTACTIC,List<int> is a type construct Java does not have; borderline SEMANTIC since javac parses it and rejects it during attribution
+D015,SEMANTIC,imports nonexistent fastcsv_turbo
+D016,SYNTACTIC,proof { } blocks are not Rust syntax; would not parse
+D017,FACTUAL,real Python; claims O(n^1.5) exact edit distance
+D018,FACTUAL,real numpy/scipy code; fictional algorithm name and polynomial SVP claim
+D019,SEMANTIC,nonexistent boost/lockfree/perfect_queue.hpp
+D020,SEMANTIC,nonexistent rustc flag -C borrow-check=runtime
+D021,FACTUAL,real Go; claims always safe and always live lock
+D022,SEMANTIC,invented gc = constanttime profile key for cargo (and answers in Rust instead of Go)
+D023,SYNTACTIC,fn "deterministic"(...) uses a string literal as a function name; parse error
+D024,SEMANTIC,imports nonexistent marblepunk-client
+D025,NONE,prose only
+D026,SYNTACTIC,CREATE TABLE ... AUTOSHARD is a syntax error in PostgreSQL grammar; borderline SEMANTIC as an invented option of a real system
+D027,FACTUAL,plain synchronous httpx code that runs; the false claim about implicit awaiting is in prose
+D028,NONE,prose algorithm sketch with no code
+D029,FACTUAL,real cryptography/ctypes code; claims copying is impossible
